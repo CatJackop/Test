@@ -4,9 +4,7 @@ if getgenv().CATHUBDeadRailExecuted then
 end
 getgenv().CATHUBDeadRailExecuted = true
 
-local BaseURL = "https://darahub.pages.dev"
-WindUI = loadstring(game:HttpGet(BaseURL .. "/Module/Library/GUI/WindUI-Moded/main.lua"))()
-loadstring(game:HttpGet(BaseURL .. "/Module/Library/GUI/LoadAll.lua"))()
+WindUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/main_example.lua'))()
 
 Window = WindUI:CreateWindow({
     Title = "CAT HUB | Dead Rail",
